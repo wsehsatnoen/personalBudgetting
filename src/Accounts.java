@@ -47,7 +47,7 @@ public class Accounts {
         this.currentBalance -= amount;
         this.addTransaction(accountTo.name, -amount);
     }
-    //By doing a send and receive function, I can easily allow both accounts created their own
+    //By doing a send/receive function, I can easily allow both accounts created their own
     //entry into their own transaction log;
     public void receiveTransfer(Accounts accountFrom, double amount) {
         this.currentBalance += amount;
