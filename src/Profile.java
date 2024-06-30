@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Profile {
+public class Profile {
+    
 }
